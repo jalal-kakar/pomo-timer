@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pomo-timer/static/css/main.8f571cc5.chunk.css",
+    "main.js": "/pomo-timer/static/js/main.b1e25a7c.chunk.js",
+    "main.js.map": "/pomo-timer/static/js/main.b1e25a7c.chunk.js.map",
+    "runtime-main.js": "/pomo-timer/static/js/runtime-main.ad58d506.js",
+    "runtime-main.js.map": "/pomo-timer/static/js/runtime-main.ad58d506.js.map",
+    "static/js/2.0f2b51d4.chunk.js": "/pomo-timer/static/js/2.0f2b51d4.chunk.js",
+    "static/js/2.0f2b51d4.chunk.js.map": "/pomo-timer/static/js/2.0f2b51d4.chunk.js.map",
+    "static/js/3.700c1cea.chunk.js": "/pomo-timer/static/js/3.700c1cea.chunk.js",
+    "static/js/3.700c1cea.chunk.js.map": "/pomo-timer/static/js/3.700c1cea.chunk.js.map",
+    "index.html": "/pomo-timer/index.html",
+    "static/css/main.8f571cc5.chunk.css.map": "/pomo-timer/static/css/main.8f571cc5.chunk.css.map",
+    "static/js/2.0f2b51d4.chunk.js.LICENSE.txt": "/pomo-timer/static/js/2.0f2b51d4.chunk.js.LICENSE.txt",
+    "static/media/alert.46a4f34e.mp3": "/pomo-timer/static/media/alert.46a4f34e.mp3",
+    "static/media/Timer.scss": "/pomo-timer/static/media/fa-solid-900.f4f93856.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad58d506.js",
+    "static/js/2.0f2b51d4.chunk.js",
+    "static/css/main.8f571cc5.chunk.css",
+    "static/js/main.b1e25a7c.chunk.js"
+  ]
+}
