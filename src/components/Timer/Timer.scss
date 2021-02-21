@@ -1,0 +1,65 @@
+$sessionTime-color: #fa504f;
+$shortBreak-color: #09e689;
+$longBreak-color: #73b9ce;
+$btn-color: #e5e3db;
+$btn-border: #858f8f;
+
+@import "src/Assets/fontawesome-free-5.15.2-web/scss/fontawesome.scss";
+@import "src/Assets/fontawesome-free-5.15.2-web/scss/regular.scss";
+@import "src/Assets/fontawesome-free-5.15.2-web/scss/solid.scss";
+
+.Timer {
+  .Timer__wrapper {
+    margin-top: -235px;
+    margin-bottom: 100px;
+  }
+
+  .Timer__time {
+    margin: 0;
+    font-size: 72px;
+  }
+
+  .Timer__mode {
+    font-size: 24px;
+  }
+
+  .session {
+    color: $sessionTime-color;
+  }
+
+  .shortBreak {
+    color: $shortBreak-color;
+  }
+
+  .longBreak {
+    color: $longBreak-color;
+  }
+}
+
+.tap {
+  transform: scale(0.9);
+  transition: 0.1s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  transition: opacity 500ms ease;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  h2 {
+    margin: 81vh 0 0 0;
+  }
+
+  button {
+    margin: 2vh 0 0 0;
+    font-size: 72px;
+    color: $btn-color;
+    background-color: transparent;
+    border: none;
+  }
+}

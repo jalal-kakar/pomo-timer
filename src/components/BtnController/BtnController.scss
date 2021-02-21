@@ -1,0 +1,35 @@
+$btn-color: #FAFAFA;
+$btn-border: #858F8F;
+$breakpoint-laptop: 1024px;
+
+.BtnController__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    @media (min-width: $breakpoint-laptop) {
+        width: initial;
+    }
+
+    .Timer__btn {
+        font-size: 72px;
+        color: $btn-color;
+        background-color: transparent;
+        border: none;
+        padding: 15px 15px 15px 15px;
+        width: 33%;
+
+        @media (min-width: $breakpoint-laptop) {
+            width: initial;
+            padding: 15px 35px 15px 35px;
+        }
+    }
+
+    .backward {
+        font-size: 36px;
+    }
+
+    .forward {
+        font-size: 36px;
+    }
+}

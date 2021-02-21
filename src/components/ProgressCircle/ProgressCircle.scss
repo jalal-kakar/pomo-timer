@@ -1,0 +1,27 @@
+$sessionTime-color: #fa504f;
+$shortBreak-color: #09e689;
+$longBreak-color: #73b9ce;
+$skeleton-color: #858f8f;
+
+.ProgressCircle__wrapper {
+  display: block;
+  height: 350px;
+  width: 350px;
+  margin: -2em auto;
+  position: relative;
+
+  #svg circle {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.5s linear;
+  }
+
+  #svg #skeleton {
+    stroke: $skeleton-color;
+    stroke-width: 5px;
+  }
+
+  #svg #colored-meter {
+    stroke: $sessionTime-color;
+    stroke-width: 1em;
+  }
+}

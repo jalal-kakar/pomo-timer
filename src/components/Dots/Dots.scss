@@ -1,0 +1,17 @@
+$dot-default: #bbb;
+$dot-completed: #09e689;
+
+.dot__wrapper {
+  .dot__item {
+    height: 10px;
+    width: 10px;
+    background-color: $dot-default;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 25px 10px;
+  }
+
+  .completed {
+    background-color: $dot-completed;
+  }
+}
